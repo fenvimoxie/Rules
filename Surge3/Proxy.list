@@ -50,6 +50,9 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 
+# > Zooba
+USER-AGENT,battleroyale*
+
 # > Top blocked sites
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,4everProxy.com
@@ -157,8 +160,8 @@ DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,content.office.net
-DOMAIN-SUFFIX,culturedcode.com 
-DOMAIN-SUFFIX,cygames.jp 
+DOMAIN-SUFFIX,culturedcode.com
+DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,d.pr
 DOMAIN-SUFFIX,danilo.to
 DOMAIN-SUFFIX,daolan.net
@@ -197,7 +200,6 @@ DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,fabric.io
-DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,fc2.com
@@ -265,7 +267,7 @@ DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,img.ly
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imore.com
-DOMAIN-SUFFIX,ingress.com 
+DOMAIN-SUFFIX,ingress.com
 DOMAIN-SUFFIX,insder.co
 DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,instructables.com
@@ -377,10 +379,6 @@ DOMAIN-SUFFIX,pixelmator.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,playpcesor.com
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.com.hk
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,pokemon.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,popo.tw
@@ -432,9 +430,6 @@ DOMAIN-SUFFIX,smh.com.au
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,sockslist.net
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sony.com.hk
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,sourceforge.net
 DOMAIN-SUFFIX,sowers.org.hk
@@ -460,7 +455,6 @@ DOMAIN-SUFFIX,sydneytoday.com
 DOMAIN-SUFFIX,symauth.com
 DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
-DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,tablesgenerator.com
 DOMAIN-SUFFIX,tabtter.jp
@@ -469,12 +463,10 @@ DOMAIN-SUFFIX,talkboxapp.com
 DOMAIN-SUFFIX,talkonly.net
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,tapbots.net
-DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,technorati.com
 DOMAIN-SUFFIX,techsmith.com
 DOMAIN-SUFFIX,teddysun.com
-DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,thebobs.com
 DOMAIN-SUFFIX,theinitium.com
@@ -644,7 +636,6 @@ DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,google
@@ -694,8 +685,10 @@ DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,webmproject.org
 DOMAIN-SUFFIX,webrtc.org
 
+# > V2EX
+DOMAIN-SUFFIX,v2ex.com
+
 DOMAIN-KEYWORD,dlercloud
-DOMAIN-SUFFIX,dler.cloud
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
@@ -770,10 +763,3 @@ IP-CIDR,74.86.0.0/16,no-resolve
 IP-CIDR,75.126.0.0/16,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
-
-# > Telegram
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,149.154.164.0/22,no-resolve
